@@ -1,0 +1,136 @@
+body {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    font-family: 'Oxygen', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a, a:link{
+    color: #0A66C2;
+}
+
+#header-nav {
+    background-color: #0A66C2;
+    border-radius: 0;
+    border: 0;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15), inset 0 -1px 0 rgba(255,255,255,0.15);
+}
+
+.container {
+   overflow: hidden;  
+}
+
+#logo-img {
+    background: url('../image/IMG_2084.jpg') no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 200px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.content-container {
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15), inset 0 -1px 0 rgba(255,255,255,0.15);
+    background-color: grey;
+    font-size: 1.5em;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    height: 200px;
+}
+
+.fa bi{
+    margin-top: 10px;
+}
+
+button{ 
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  /*display: inline-flex;*/
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  /*min-height: 40px;*/
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+button:hover,
+button:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+button:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+button:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+#main-content {
+  background: grey;
+  display: flex;
+  float: left;
+  flex-direction: row-reverse;
+  vertical-align: top; 
+}
+
+@media (min-width: 1200px){
+    
+}
+
+@media (min-width:992px) and (max-width:1199px){
+   
+
+}
+@media (min-width:768px) and (max-width:991px){
+    .content-container{
+        font-size: 18px;
+    }
+    .container{
+        height:150px;
+    }
+}
+@media (max-width:767px){
+    .content-container{
+        font-size: 17px;
+    }
+    .container{
+        height: 150px;
+    }
+}
+    
+    
